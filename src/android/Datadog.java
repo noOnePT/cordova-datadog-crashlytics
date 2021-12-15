@@ -140,4 +140,8 @@ public class Datadog extends CordovaPlugin {
         result.setKeepCallback(false);
         callback.sendPluginResult(result);
     }
+    
+    private void testCrash(){
+        throw new RuntimeException("Crash Test");
+    }
 }
