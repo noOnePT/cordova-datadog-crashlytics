@@ -144,6 +144,6 @@ public class Datadog extends CordovaPlugin {
     
     private void testCrash(){
         throw new RuntimeException("Crash Test");
-        x = 1/0;
+        integer x = 1/0;
     }
 }
