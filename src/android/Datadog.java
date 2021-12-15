@@ -56,9 +56,6 @@ public class Datadog extends CordovaPlugin {
                 result.setKeepCallback(false);
                 callback.sendPluginResult(result);
                 return true;
-            case "crashtest":
-                testCrash();
-                return true;    
             case "getSessionId":
                 getSessionId();
                 return true;
